@@ -12,6 +12,7 @@ describe('server', () => {
     })
 
     after(() => {
+        client.close()
         srv.close()
     })
 
