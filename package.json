@@ -1,0 +1,30 @@
+{
+  "name": "bexio-guest-book",
+  "version": "1.0.0",
+  "description": "bexio tech challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src tests",
+    "start": "node src/index.js",
+    "tdd": "mocha -w -R min tests/*.spec.js",
+    "pretest": "npm run lint",
+    "test": "mocha tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://ikr.su/home/ikr/bexio-guest-book.git"
+  },
+  "author": "Ivan Krechetov <ikr@ikr.su>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+  }
+}
