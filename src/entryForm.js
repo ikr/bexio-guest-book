@@ -36,7 +36,7 @@ module.exports = function () {
             required: true
         }),
 
-        h('button', 'Submit', {type: 'submit'})
+        h('button.btn.btn-primary', 'Submit', {type: 'submit'})
     ], {
         method: 'POST',
         action: '/new'
