@@ -34,7 +34,9 @@ module.exports = function () {
             maxlength: 80,
             name: 'email',
             required: true
-        })
+        }),
+
+        h('button', 'Submit', {type: 'submit'})
     ], {
         method: 'POST',
         action: '/new'
