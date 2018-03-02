@@ -12,8 +12,8 @@ module.exports = function () {
             'Content-Length': Buffer.byteLength(body),
             'Content-Type': 'text/html'
         })
-        res.write(body);
-        res.end();
+        res.write(body)
+        res.end()
     })
 
     return server

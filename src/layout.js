@@ -13,9 +13,7 @@ module.exports = function (body) {
 
   <body>
     <div class="container">
-      <main role="main">
-        ${body}
-      </main>
+      ${body}
     </div>
   </body>
 </html>
